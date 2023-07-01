@@ -44,7 +44,9 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-logo {
   color: var(--color-secondary);
   font-family: "Raleway", sans-serif;
@@ -144,7 +146,7 @@ img {
 }
 
 .solutions-text {
-  width: 496px;
+  max-width: 496px;
   font-size: 56px;
   text-align: center;
   margin-left: auto;
@@ -169,6 +171,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .solutions-button:hover,
@@ -339,6 +345,7 @@ img {
 
 .buttons-element:hover,
 .buttons-element:focus {
+  border: 1px solid transparent;
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -363,6 +370,7 @@ img {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .info {
